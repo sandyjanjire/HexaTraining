@@ -86,9 +86,7 @@ schema='formula1'
 # COMMAND ----------
 
 df.write.mode('overwrite').saveAsTable(f"{catlog}.{schema}.races")
-# --test
 
 # COMMAND ----------
 
-# MAGIC %sql
-# MAGIC SELECT * from 
+
